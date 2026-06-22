@@ -24,18 +24,15 @@ int main()
 	float totalCharges = 0.0;
 
 	// Inpatient information.
-	if (patientType == 'I' || patientType == 'O')
+	if (patientType == 'I' || patientType == 'i')
 	{
 		int daysSpent = 0;
-		float dailyRate = 0.0;
+		float dailyRate = 0.05;
 		float medicationCharges = 0.0;
 		float serviceCharges = 0.0;
 
 		cout << "Enter the number of days spent in the hospital: ";
 		cin >> daysSpent;
-
-		cout << "Enter the daily rate: ";
-		cin >> dailyRate;
 
 		cout << "Enter hospital medication charges: ";
 		cin >> medicationCharges;
