@@ -1,0 +1,3 @@
+Hospital Charges Report
+Patient type: Inpatient
+Total charges: $1600
